@@ -1,0 +1,133 @@
+[
+  {
+    "query": "how do we keep electronic records trustworthy and tamper proof",
+    "relevant": [
+      "alcoa-data-integrity",
+      "audit-trail-review",
+      "part11-electronic-records",
+      "gxp-data-backup"
+    ]
+  },
+  {
+    "query": "proving a machine was installed and runs correctly before production",
+    "relevant": [
+      "equipment-qualification",
+      "hvac-qualification"
+    ]
+  },
+  {
+    "query": "making sure shared equipment is clean enough between different products",
+    "relevant": [
+      "cleaning-validation",
+      "cleaning-verification-swab"
+    ]
+  },
+  {
+    "query": "what to do when a lab test result fails its limits",
+    "relevant": [
+      "oos-investigation",
+      "deviation-management",
+      "capa-system"
+    ]
+  },
+  {
+    "query": "keeping the air in sterile manufacturing free of particles and microbes",
+    "relevant": [
+      "cleanroom-classification",
+      "environmental-monitoring",
+      "hvac-qualification",
+      "aseptic-processing"
+    ]
+  },
+  {
+    "query": "system that produces very pure water for injectable medicines",
+    "relevant": [
+      "wfi-system",
+      "purified-water-monitoring"
+    ]
+  },
+  {
+    "query": "using heat to kill microorganisms on equipment and glassware",
+    "relevant": [
+      "sterilization-autoclave",
+      "depyrogenation"
+    ]
+  },
+  {
+    "query": "checking filled vials for visible particles and defects",
+    "relevant": [
+      "visual-inspection"
+    ]
+  },
+  {
+    "query": "evaluating and approving outside suppliers of materials",
+    "relevant": [
+      "supplier-qualification",
+      "quality-agreement",
+      "raw-material-testing"
+    ]
+  },
+  {
+    "query": "structured way to assess and reduce risk to product quality",
+    "relevant": [
+      "quality-risk-management",
+      "capa-system"
+    ]
+  },
+  {
+    "query": "how long a drug stays good and how its expiry is set",
+    "relevant": [
+      "stability-testing"
+    ]
+  },
+  {
+    "query": "training staff and qualifying people for good manufacturing practice",
+    "relevant": [
+      "gmp-training",
+      "cleanroom-gowning"
+    ]
+  },
+  {
+    "query": "documenting and approving a change to a validated process",
+    "relevant": [
+      "change-control",
+      "process-validation-lifecycle",
+      "computer-system-validation"
+    ]
+  },
+  {
+    "query": "confirming a storage room stays within the right temperature everywhere",
+    "relevant": [
+      "temperature-mapping"
+    ]
+  },
+  {
+    "query": "responding to customer complaints about a marketed product",
+    "relevant": [
+      "complaint-handling",
+      "recall-procedure",
+      "capa-system"
+    ]
+  },
+  {
+    "query": "yearly review of a product's overall quality and trends",
+    "relevant": [
+      "annual-product-review",
+      "batch-record-review"
+    ]
+  },
+  {
+    "query": "keeping instruments accurate with traceable references",
+    "relevant": [
+      "calibration-management",
+      "preventive-maintenance"
+    ]
+  },
+  {
+    "query": "making sure the right label goes on the right batch",
+    "relevant": [
+      "label-reconciliation",
+      "document-control"
+    ]
+  }
+]
