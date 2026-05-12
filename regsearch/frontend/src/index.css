@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    /* Faint grid wash — a nod to lab paper / instrument readouts. */
+    background-image:
+      linear-gradient(to right, rgba(15, 36, 56, 0.025) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(15, 36, 56, 0.025) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  ::selection {
+    background: rgba(27, 79, 114, 0.18);
+  }
+}
+
+@layer components {
+  .panel {
+    @apply bg-panel border border-line rounded-lg;
+  }
+
+  .mono-num {
+    @apply font-mono tabular-nums;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-line
+      px-2 py-0.5 text-xs font-medium text-ink-soft;
+  }
+
+  /* Tab underline animation lives on a pseudo-element so the label doesn't
+     shift when it becomes active. */
+  .tab-link {
+    @apply relative px-3 py-2 text-sm font-medium text-ink-faint
+      transition-colors hover:text-ink;
+  }
+  .tab-link[aria-current="page"] {
+    @apply text-ink;
+  }
+  .tab-link[aria-current="page"]::after {
+    content: "";
+    @apply absolute left-3 right-3 -bottom-px h-0.5 rounded-full bg-brand;
+  }
+}
+
+/* Motion floor: honour users who ask for reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
